@@ -18,15 +18,23 @@ void Led::init()
 
 void Led::on()
 {
+    value = HIGH;
     digitalWrite(pin, HIGH);
 }
 
 void Led::off()
 {
+    value = LOW;
     digitalWrite(pin, LOW);
 }
 
 void Led::on(byte val)
 {
+    value = val;
     analogWrite(pin, val);
+}
+
+byte Led::getValue()
+{
+    return value;
 }

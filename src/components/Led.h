@@ -14,6 +14,7 @@ class Led
 {
 private:
     byte pin;    /** LED output pin */
+    byte value;
     void init(); /** Initialize the Pot object */
 
 public:
@@ -42,6 +43,8 @@ public:
      * 
      */
     void off();
+
+    byte getValue();
 };
 
 #endif

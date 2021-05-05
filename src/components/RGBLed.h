@@ -16,7 +16,6 @@ private:
     Led *red;   /** Led object for red LED */
     Led *green; /** Led object for blue LED */
     Led *blue;  /** Led object for green LED */
-
 public:
     /**
      * @brief Construct a new RGBLed object
@@ -26,6 +25,7 @@ public:
      * @param bluePin Blue LED output pin
      */
     RGBLed(byte redPin, byte greenPin, byte bluePin);
+    ~RGBLed();
 
     /**
      * @brief Turn on the RGB LED with the specified RGB value
