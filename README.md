@@ -7,5 +7,6 @@ As of now, this library contains the following components:
 * Simple Analog Input (`AnalogInput.h`)
 * Button (`Button.h`)
 * DC Motor (`DCMotor.h`)
+    * `Direction` enum values: `Forward` and `Reverse`
 * LED (`Led.h`)
 * RGB LED (`RGBLed.h`)
