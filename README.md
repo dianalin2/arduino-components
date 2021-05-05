@@ -4,7 +4,8 @@ This is basically a small library for some Arduino components, mostly for my per
 
 As of now, this library contains the following components:
 
-* DC Motor (DCMotor.h)
-* LED (Led.h)
-* Potentiometer (Pot.h)
-* RGB LED (RGBLed.h)
+* Simple Analog Input (`AnalogInput.h`)
+* Button (`Button.h`)
+* DC Motor (`DCMotor.h`)
+* LED (`Led.h`)
+* RGB LED (`RGBLed.h`)
